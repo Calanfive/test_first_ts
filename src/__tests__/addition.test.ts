@@ -35,6 +35,7 @@ describe("Sum", () => {
         expect(sum(0,-10)).toBe(-10);
       });
     });
+    
     describe("Small sum of valid numbers", () => {
       test("positives", () => {
         expect(sum(125, 25)).toBe(150);
