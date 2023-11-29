@@ -3,8 +3,6 @@ export function multiple(a: number, b: number): number{
         return 0
     }
     
-    
-    
     if (a === 1) {
         return b
     }
